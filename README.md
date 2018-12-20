@@ -1,5 +1,11 @@
 ## MoneyManager-Android
 Aplikasi untuk mempermudah dalam pencatatan keuangan 
+
+## Deskripsi Aplikasi
+OTW HEMAT adalah sebuah aplikasi untuk mempermudah pencatatan keuangan agar kita dapat meninjau dan melacak uang hasil pemasukan dan pengeluaran kita dengan mudah. OTW HEMAT membuat kita dapat mengelola keuangan pribadi kita, dengan mudah kita dapat mencatat dan mendokumentasikan transaksi keuangan pribadi maupun bisnis kita, kita dapat membuat laporan pengeluaran, tinjau data keuangan harian, kita dan kelola aset keuangan kita.
+OTW HEMAT menunjukkan pemasukan dan pengeluaran kita berdasarkan grafik sehingga kita dapat melihat presentase pengeluaran Anda terhadap anggaran Anda dengan cepat dan membuat kita dapat mengetahui kesimpulan keuangan yang tepat, Kita juga mempunyai fitur registrasi dan login akun, dengan fitur ini hanya pemilik akun yang dapat melihat catatan keuangan dan mengoperasikannya
+
+
 ## Fitur
 * SQLite – sebagai database untuk menyimpan data user dan data catatan pengeluaran
 * Recycler View – menampilkan data dalam bentuk list, diterapkan pada halaman home
