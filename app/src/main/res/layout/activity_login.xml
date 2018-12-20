@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hm"
+    >
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="230dp"
+        android:layout_gravity="center"
+        android:hint="@string/email"
+        android:textColor="@color/hitam"
+        android:textSize="15sp"
+        android:layout_height="40dp"
+        android:layout_marginTop="180dp"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="230dp"
+
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/hitam"
+        android:textSize="15sp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+    android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/barunih"
+        android:fontFamily="@font/leter"
+        android:textStyle="bold"
+        android:textColor="@color/putih"
+        android:textSize="18sp"
+        android:text="@string/login"
+        />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:text="@string/create"
+        android:textColor="@color/hitam"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+android:layout_gravity="center"
+        android:fontFamily="@font/leter"
+        android:textStyle="bold"
+        android:background="@drawable/newie"
+        />
+
+</LinearLayout>

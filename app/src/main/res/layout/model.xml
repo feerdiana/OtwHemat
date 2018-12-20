@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" android:padding="10dp"
+   >
+    <TextView
+        android:textSize="18sp"
+        android:background="@drawable/tanggalan"
+        android:id="@+id/txttgl"
+        android:layout_width="70dp"
+        android:fontFamily="@font/leter"
+        android:textStyle="bold"
+        android:textColor="@color/putih"
+        android:layout_height="20dp"
+        android:text="2018-10-15"/>
+    <TextView
+        android:id="@+id/txtket"
+        android:layout_marginLeft="40dp"
+        android:textSize="22sp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        android:textStyle="bold"
+        android:fontFamily="@font/leter"
+        android:textColor="@color/hitam"
+        />
+    <TextView
+        android:id="@+id/txtjml"
+        android:textSize="22sp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:text="7000"
+        android:fontFamily="@font/leter"
+        android:textStyle="bold"
+        android:gravity="end" />
+
+</android.support.v7.widget.LinearLayoutCompat>

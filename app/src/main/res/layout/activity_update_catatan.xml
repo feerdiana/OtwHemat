@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/nisasabyun">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <Button
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/back"
+            android:background="@drawable/bek">
+
+        </Button>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/addincome"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:text="Income"
+                android:textColor="@color/putih"
+                />
+
+            <Button
+                android:id="@+id/addexp"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:background="@color/putih"
+                android:text="EXPENSES" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Date"
+                android:fontFamily="@font/leter"
+                android:textStyle="bold"
+                android:id="@+id/txtdate"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="18dp"
+
+                />
+            <EditText
+                android:layout_toRightOf="@id/txtdate"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:id="@+id/date"
+                />
+            <Button
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@id/date"
+                android:background="@drawable/calendar"
+                android:id="@+id/calendar"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Category"
+                android:layout_below="@id/txtdate"
+                android:id="@+id/txtkategori"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:fontFamily="@font/leter"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                />
+            <Spinner
+                android:id="@+id/spinnerCategory"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/txtkategori"
+                android:layout_below="@id/txtdate"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Amount"
+                android:layout_below="@id/txtkategori"
+                android:id="@+id/txtjumlah"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:fontFamily="@font/leter"
+                android:textStyle="bold"
+                android:textSize="18dp" android:layout_marginBottom="10dp"
+                />
+            <EditText
+                android:layout_toRightOf="@id/txtjumlah"
+                android:layout_below="@id/txtkategori"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:id="@+id/edtjumlah"
+                android:inputType="number"
+                />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Note"
+                android:id="@+id/txtnote"
+                android:textAlignment="center"
+                android:fontFamily="@font/leter"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18dp"
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:inputType="text"
+                android:id="@+id/edtnote"
+                android:layout_toRightOf="@id/txtnote"/>
+            <Button
+                android:layout_toRightOf="@id/edtnote"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/btncamera"
+                android:background="@drawable/camera"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtnote"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imgnote"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+
+        android:id="@+id/btnsave"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/barunih"
+        android:text="Update"
+        android:textColor="@color/putih"
+        android:fontFamily="@font/leter"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+
+
+</LinearLayout>

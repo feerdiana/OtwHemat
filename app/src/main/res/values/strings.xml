@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MoneyManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="save">SAVE</string>
+    <string name="update">UPDATE</string>
+    <string name="income">INCOME</string>
+    <string name="expenses">EXPENSES</string>
+    <string name="balance">BALANCE</string>
+    <string name="date">Date</string>
+    <string name="kategori">Category</string>
+    <string name="jumlah">Amount</string>
+    <string name="note">Note</string>
+    <string name="create">Create Account</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="konfirmasi">Konfirmasi Password</string>
+</resources>
